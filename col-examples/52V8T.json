@@ -1,0 +1,143 @@
+{
+    "@context": [
+        "https://schema.org/",
+        {
+            "dwc": "http://rs.tdwg.org/dwc/terms/",
+            "col": "http://catalogueoflife.org/terms/"
+        }
+    ],
+    "@id": "https://www.catalogueoflife.org/data/taxon/52V8T",
+    "@type": "Taxon",
+    "additionalType": [
+        "dwc:Taxon",
+        "http://rs.tdwg.org/ontology/voc/TaxonConcept#TaxonConcept"
+    ],
+    "identifier": [
+        {
+            "@type": "PropertyValue",
+            "name": "dwc:taxonID",
+            "propertyID": "http://rs.tdwg.org/dwc/terms/taxonID",
+            "value": "52V8T"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "col:ID",
+            "propertyID": "http://catalogueoflife.org/terms/ID",
+            "value": "52V8T"
+        }
+    ],
+    "name": "Straminella maheui (Hue) S.Y. Kondr., Lőkös &amp; Farkas",
+    "scientificName": {
+        "@type": "TaxonName",
+        "name": "Straminella maheui",
+        "author": "(Hue) S.Y. Kondr., Lőkös &amp; Farkas",
+        "taxonRank": "Species",
+        "isBasedOn": {
+            "@type": "ScholarlyArticle",
+            "name": "(2019). In Kondratyuk, Lőkös, Jang, Hur &amp; Farkas, Acta Bot. Hung. 61(1-2): 158."
+        }
+    },
+    "taxonRank": [
+        "https://api.checklistbank.org/vocab/rank/Species",
+        "Species"
+    ],
+    "alternateName": [
+        "Caloplaca maheui (Hue) Zahlbr.",
+        "Lecanora maheui (Hue) I.M. Lamb",
+        "Polycauliona maheui Hue",
+        "Rhizoplaca maheui (Hue) Gómez-Bolea &amp; M. Barbero",
+        "Thamnolia maheui (Hue) Gyeln.",
+        "Thamnonoma maheui (Hue) Gyeln."
+    ],
+    "alternateScientificName": [
+        {
+            "@type": "TaxonName",
+            "name": "Caloplaca maheui",
+            "author": "(Hue) Zahlbr.",
+            "taxonRank": "Species",
+            "isBasedOn": {
+                "@type": "ScholarlyArticle",
+                "name": "(1931). Cat. Lich. Univers. 7: 274."
+            }
+        },
+        {
+            "@type": "TaxonName",
+            "name": "Lecanora maheui",
+            "author": "(Hue) I.M. Lamb",
+            "taxonRank": "Species",
+            "isBasedOn": {
+                "@type": "ScholarlyArticle",
+                "name": "(1939). Bryologist 42: 36."
+            }
+        },
+        {
+            "@type": "TaxonName",
+            "name": "Polycauliona maheui",
+            "author": "Hue",
+            "taxonRank": "Species",
+            "isBasedOn": {
+                "@type": "ScholarlyArticle",
+                "name": "(1909). In Maheu, Bull. Soc. Bot. Fr. 56: 390."
+            }
+        },
+        {
+            "@type": "TaxonName",
+            "name": "Rhizoplaca maheui",
+            "author": "(Hue) Gómez-Bolea &amp; M. Barbero",
+            "taxonRank": "Species",
+            "isBasedOn": {
+                "@type": "ScholarlyArticle",
+                "name": "(2009). Mycotaxon 108: 342."
+            }
+        },
+        {
+            "@type": "TaxonName",
+            "name": "Thamnolia maheui",
+            "author": "(Hue) Gyeln.",
+            "taxonRank": "Species",
+            "isBasedOn": {
+                "@type": "ScholarlyArticle",
+                "name": "(1933). Acta Faun. Fl. Univers., Ser. 2, Bot. 1(nos 5-6): 9."
+            }
+        },
+        {
+            "@type": "TaxonName",
+            "name": "Thamnonoma maheui",
+            "author": "(Hue) Gyeln.",
+            "taxonRank": "Species",
+            "isBasedOn": {
+                "@type": "ScholarlyArticle",
+                "name": "(1933). Acta Faun. Fl. Univers., Ser. 2, Bot. 1(nos 5-6): 10."
+            }
+        }
+    ],
+    "parentTaxon": {
+        "@id": "https://www.catalogueoflife.org/data/taxon/7NZX",
+        "@type": "Taxon",
+        "name": "Straminella",
+        "scientificName": {
+            "@type": "TaxonName",
+            "name": "Straminella",
+            "author": "",
+            "taxonRank": "Genus"
+        },
+        "identifier": [
+            {
+                "@type": "PropertyValue",
+                "name": "dwc:taxonID",
+                "propertyID": "http://rs.tdwg.org/dwc/terms/taxonID",
+                "value": "7NZX"
+            },
+            {
+                "@type": "PropertyValue",
+                "name": "col:ID",
+                "propertyID": "http://catalogueoflife.org/terms/ID",
+                "value": "7NZX"
+            }
+        ],
+        "taxonRank": [
+            "http://rs.gbif.org/vocabulary/gbif/rank/Genus",
+            "Genus"
+        ]
+    }
+}

@@ -1,0 +1,26 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "@id": "1167",
+  "url": "https://www.catalogueoflife.org/data/dataset/1167",
+  "name": "Zoraptera Species File",
+  "description": "Zoraptera Species File contains taxonomic and other information on the zorapterans of the world.",
+  "temporalCoverage": "",
+  "spatialCoverage": "",
+  "inLanguage": "eng",
+  "version": "Sep 2022",
+  "datePublished": "2022-09-05",
+  "publisher": {
+    "@type": "Organization",
+    "name": "Catalogue of Life (COL)",
+    "url": "https://www.catalogueoflife.org"
+  },
+  "provider": {
+    "@type": "Organization",
+    "name": "Global Biodiversity Information Facility (GBIF)",
+    "url": "https://www.gbif.org",
+    "logo": "https://www.gbif.org/img/logo/GBIF50.png",
+    "email": "info@gbif.org",
+    "telephone": "+45 35 32 14 70"
+  }
+}

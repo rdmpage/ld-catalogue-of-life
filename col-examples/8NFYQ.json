@@ -1,0 +1,116 @@
+{
+  "@context": [
+    "https://schema.org/",
+    {
+      "dwc": "http://rs.tdwg.org/dwc/terms/",
+      "col": "http://catalogueoflife.org/terms/"
+    }
+  ],
+  "@id":"https://www.catalogueoflife.org/data/taxon/8NFYQ",
+  "@type": "Taxon",
+  "additionalType": [
+    "dwc:Taxon",
+    "http://rs.tdwg.org/ontology/voc/TaxonConcept#TaxonConcept"
+  ],
+  "identifier": [
+    {
+      "@type": "PropertyValue",
+      "name": "dwc:taxonID",
+      "propertyID": "http://rs.tdwg.org/dwc/terms/taxonID",
+      "value": "8NFYQ"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "col:ID",
+      "propertyID": "http://catalogueoflife.org/terms/ID",
+      "value": "8NFYQ"
+    }
+  ],
+  "name": "Centrozoros hamiltoni (New, 1978)",
+  "scientificName": {
+    "@type": "TaxonName",
+    "name": "Centrozoros hamiltoni",
+    "author": "(New, 1978)",
+    "taxonRank": "Species"
+    ,"isBasedOn": {
+      "@type": "ScholarlyArticle",
+      "name": "New, T.R. (1978) Notes on Neotropical Zoraptera, with descriptions of two new species. 3, 361–370."
+    }
+  },
+  "taxonRank": [
+    "https://api.checklistbank.org/vocab/rank/Species",
+    "Species"
+  ],
+
+  "alternateName": [
+      "Zorotypus hamiltoni New, 1978",
+      "Zorotypus (Zorotypus) hamiltoni New, 1978",
+      "Zorotypus (Zorotypus) juninensis",
+      "Zorotypus juninensis Engel, 2000"
+  ],
+  "alternateScientificName": [
+    {
+      "@type": "TaxonName",
+      "name": "Zorotypus hamiltoni",
+      "author": "New, 1978",
+      "taxonRank": "Species"
+       ,"isBasedOn": {
+          "@type": "ScholarlyArticle",
+          "name": "New, T.R. (1978) Notes on Neotropical Zoraptera, with descriptions of two new species. 3, 361–370."
+        }
+    },
+    {
+      "@type": "TaxonName",
+      "name": "Zorotypus (Zorotypus) hamiltoni",
+      "author": "New, 1978",
+      "taxonRank": "Species"
+    },
+    {
+      "@type": "TaxonName",
+      "name": "Zorotypus (Zorotypus) juninensis",
+      "author": "",
+      "taxonRank": "Species"
+    },
+    {
+      "@type": "TaxonName",
+      "name": "Zorotypus juninensis",
+      "author": "Engel, 2000",
+      "taxonRank": "Species"
+       ,"isBasedOn": {
+          "@type": "ScholarlyArticle",
+          "name": "Engel, M.S. (2000) A new Zorotypus from Peru, with notes on related Neotropical species (Zoraptera: Zortypidae). 73, 11–20."
+        }
+    }
+  ],
+
+
+  "parentTaxon": {
+    "@id":"https://www.catalogueoflife.org/data/taxon/8MQFR",
+    "@type": "Taxon",
+    "name": "Centrozoros Kukalova-Peck &amp; Peck, 1993",
+    "scientificName": {
+      "@type": "TaxonName",
+      "name": "Centrozoros",
+      "author": "Kukalova-Peck &amp; Peck, 1993",
+      "taxonRank": "Genus"
+    },
+    "identifier": [
+      {
+        "@type": "PropertyValue",
+        "name": "dwc:taxonID",
+        "propertyID": "http://rs.tdwg.org/dwc/terms/taxonID",
+        "value": "8MQFR"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "col:ID",
+        "propertyID": "http://catalogueoflife.org/terms/ID",
+        "value": "8MQFR"
+      }
+    ],
+    "taxonRank": [
+      "http://rs.gbif.org/vocabulary/gbif/rank/Genus",
+      "Genus"
+    ]
+  }
+}
